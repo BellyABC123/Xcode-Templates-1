@@ -24,6 +24,22 @@
 			<key>Type</key>
 			<string>text</string>
 		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Path to the local installation of the openFrameworks library.</string>
+			<key>EmptyReplacement</key>
+			<string>../../..</string>
+			<key>Identifier</key>
+			<string>OF_PATH</string>
+			<key>Name</key>
+			<string>openFrameworks Path</string>
+			<key>NotPersisted</key>
+			<false/>
+			<key>Placeholder</key>
+			<string>../../..</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
 	</array>
 	<key>Project</key>
 	<dict>
@@ -49,6 +65,8 @@
 			<string>YES</string>
 			<key>GCC_WARN_UNUSED_VARIABLE</key>
 			<string>YES</string>
+			<key>OF_PATH</key>
+			<string>___VARIABLE_OF_PATH___</string>
 		</dict>
 	</dict>
 	<key>Targets</key>

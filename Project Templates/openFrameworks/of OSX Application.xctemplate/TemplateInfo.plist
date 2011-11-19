@@ -9,6 +9,7 @@
 	<key>Ancestors</key>
 	<array>
 		<string>cc.openFrameworks.bundleBase</string>
+		<string>cc.openFrameworks.ofCore</string>
 	</array>
 	<key>Concrete</key>
 	<true/>
@@ -87,17 +88,6 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Xcode/Project.xcconfig</key>
-		<dict>
-			<key>Kind</key>
-			<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
-			<key>Group</key>
-			<string>Xcode</string>
-			<key>Path</key>
-			<string>Xcode/Project.xcconfig</string>
-			<key>TargetIndices</key>
-			<array/>
-		</dict>
 	</dict>
 	<key>Description</key>
 	<string>This project template provides a starting point for creating an application using the openFrameworks open-source C++ library.</string>
@@ -114,17 +104,9 @@
 		<string>src/main.cpp</string>
 		<string>Xcode/Info.plist</string>
 		<string>Xcode/Prefix.pch</string>
-		<string>Xcode/Project.xcconfig</string>
 	</array>
 	<key>Project</key>
 	<dict>
-		<key>BasedOn</key>
-		<dict>
-			<key>Debug</key>
-			<string>Xcode/Project.xcconfig</string>
-			<key>Release</key>
-			<string>Xcode/Project.xcconfig</string>
-		</dict>
 		<key>Configurations</key>
 		<dict>
 			<key>Debug</key>
