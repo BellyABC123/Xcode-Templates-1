@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Identifier</key>
+	<string>cc.openFrameworks.ofCore</string>
+	<key>Project</key>
+	<dict>
+		<key>SharedSettings</key>
+		<dict>
+			<!-- Core Headers -->
+			<key>HEADER_OF</key>
+			<string>$(OF_PATH)/libs/openFrameworks/**</string>
+			<key>HEADER_CAIRO</key>
+			<string>$(OF_PATH)/libs/cairo/include/cairo</string>
+			<key>HEADER_FMODEX</key>
+			<string>$(OF_PATH)/libs/fmodex/include</string>
+			<key>HEADER_FREEIMAGE</key>
+			<string>$(OF_PATH)/libs/FreeImage/include</string>
+			<key>HEADER_FREETYPE</key>
+			<string>$(OF_PATH)/libs/freetype/include</string>
+			<key>HEADER_FREETYPE2</key>
+			<string>$(OF_PATH)/libs/freetype/include/freetype2</string>
+			<key>HEADER_GLEW</key>
+			<string>$(OF_PATH)/libs/glew/include</string>
+			<key>HEADER_POCO</key>
+			<string>$(OF_PATH)/libs/poco/include</string>
+			<key>HEADER_RTAUDIO</key>
+			<string>$(OF_PATH)/libs/rtaudio/include</string>
+			<key>HEADER_TESS2</key>
+			<string>$(OF_PATH)/libs/tess2/include</string>
+			
+			<key>OF_CORE_HEADERS</key>
+			<string>$(HEADER_OF) $(HEADER_POCO) $(HEADER_FREETYPE) $(HEADER_FREETYPE2) $(HEADER_FMODEX) $(HEADER_GLEW) $(HEADER_FREEIMAGE) $(HEADER_TESS2) $(HEADER_CAIRO) $(HEADER_RTAUDIO)</string>
+			
+			<!-- Core Libraries -->
+			<key>LIB_OF_DEBUG</key>
+			<string>$(OF_PATH)/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a</string>
+			<key>LIB_CAIRO1</key>
+			<string>$(OF_PATH)/libs/cairo/lib/osx/cairo-script-interpreter.a</string>
+			<key>LIB_CAIRO2</key>
+			<string>$(OF_PATH)/libs/cairo/lib/osx/cairo.a</string>
+			<key>LIB_CAIRO3</key>
+			<string>$(OF_PATH)/libs/cairo/lib/osx/pixman-1.a</string>
+			<key>LIB_FMODEX</key>
+			<string>$(OF_PATH)/libs/fmodex/lib/osx/libfmodex.dylib</string>
+			<key>LIB_FREEIMAGE</key>
+			<string>$(OF_PATH)/libs/FreeImage/lib/osx/freeimage.a</string>
+			<key>LIB_FREETYPE</key>
+			<string>$(OF_PATH)/libs/freetype/lib/osx/freetype.a</string>
+			<key>LIB_GLEW</key>
+			<string>$(OF_PATH)/libs/glew/lib/osx/glew.a</string>
+			<key>LIB_GLUT</key>
+			<string>$(OF_PATH)/libs/glut/lib/osx/GLUT.framework/Versions/A/GLUT</string>
+			<key>LIB_POCOFOUNDATION</key>
+			<string>$(OF_PATH)/libs/poco/lib/osx/PocoFoundation.a</string>
+			<key>LIB_POCONET</key>
+			<string>$(OF_PATH)/libs/poco/lib/osx/PocoNet.a</string>
+			<key>LIB_POCOUTIL</key>
+			<string>$(OF_PATH)/libs/poco/lib/osx/PocoUtil.a</string>
+			<key>LIB_POCOXML</key>
+			<string>$(OF_PATH)/libs/poco/lib/osx/PocoXML.a</string>
+			<key>LIB_RTAUDIO</key>
+			<string>$(OF_PATH)/libs/rtAudio/lib/osx/rtAudio.a</string>
+			<key>LIB_TESS</key>
+			<string>$(OF_PATH)/libs/tess2/lib/osx/tess2.a</string>
+			
+			<key>OF_CORE_LIBS</key>
+			<string>$(LIB_OF_DEBUG) $(LIB_POCOFOUNDATION) $(LIB_POCONET) $(LIB_POCOXML) $(LIB_POCOUTIL) $(LIB_TESS) $(LIB_GLEW) $(LIB_CAIRO1) $(LIB_CAIRO2) $(LIB_CAIRO3) $(LIB_FMODEX) $(LIB_RTAUDIO)</string>
+			
+		</dict>
+	</dict>
+</dict>
+</plist>
