@@ -17,17 +17,16 @@ Usage
 
 #### OF_PATH
 
-When creating a new project you can change the path to your local installation of openFrameworks code base. This can be either an absolute path such as `$HOME/Code/openFrameworks` or a project relative path path such as `../../..` which is the default. 
-The `OF_PATH` value assumes that you will create your project in `apps/yourApps/{project_name}` sub-directory of your local openFrameworks code base. 
+When creating a new project you can change the path to your local installation of the openFrameworks code base. This can be either an absolute path such as `$HOME/Code/openFrameworks` or a project relative path such as `../../..` which assumes the project is created in the `apps/yourApps/{project_name}` sub-directory of your local openFrameworks code base. 
 
 #### GLUT
 
 With the current template system in Xcode 4 it is not possible to add external frameworks as part of a project template. Since openFrameworks uses a modified version of GLUT this must be added manually to the project and build product. 
 
 1. Click **+** in the **Linked Libraries and Frameworks** pane of the **Summary** view and add the version of GLUT from the openFrameworks code base, `{path_to_openframeworks}/libs/glut/lib/osx/GLUT.framework`
-The `GLUT.framework` at the top of the *Project Navigator* pane and can be moved to the a new sub-folder, turning red temporarily.
+The `GLUT.framework` will appear at the top of the *Project Navigator* pane and can be dragged into the Frameworks, or any other group within your project.
 
-2. Select the project target and **Build Phases** view and drag the `GLUT.framework` from the *Project Navigator* pane to the **Copy Files** panel.
+2. Select **Build Phases** view for the project target and drag the `GLUT.framework` from the *Project Navigator* pane to the **Copy Files** panel.
 
 
 
